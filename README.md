@@ -3,3 +3,4 @@
 2. a script that creates all tables in alx_book_store in your MySQL server.
 3. a script that list all the tables in alx_book_store in MySQL server
 4. script that prints the full description of the table books from the database alx_book_store in MySQL server.
+5. a script that inserts a single row in the table customer (database alx_book_store
