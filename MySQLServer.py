@@ -17,8 +17,8 @@ try:
 	cursor_obj.execute("CREATE DATABASE IF NOT EXISTS alx_book_store;")
 	print("Database 'alx_book_store' created successfully!")
 
-except Error as e:
-	print(f"Error, failing to connect to the MySQL Server: {e}")
+except Error:
+	print(f"Error, failing to connect to the MySQL Server: {Error}")
 
 finally:
 	if "cursor_obj" in locals():
